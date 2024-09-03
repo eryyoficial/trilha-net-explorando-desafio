@@ -23,3 +23,9 @@ reserva.CadastrarHospedes(hospedes);
 // Exibe a quantidade de hóspedes e o valor da diária
 Console.WriteLine($"Hóspedes: {reserva.ObterQuantidadeHospedes()}");
 Console.WriteLine($"Valor diária: {reserva.CalcularValorDiaria()}");
+
+Professor prof = new Professor();
+prof.Nome = "Augusto";
+prof.Sobrenome = "Chata";
+prof.Idade = 34;
+prof.Apresentar();
